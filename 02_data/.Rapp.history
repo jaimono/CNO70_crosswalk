@@ -1,0 +1,2 @@
+load("/Users/Chiara/Documents/Jaime/github/CNO70_Correspondencia/02_data/extractPDF.rds")
+load("/Users/Chiara/Documents/Jaime/github/CNO70_Correspondencia/02_data/CNO70_ISCO88_crosswalk.rds")
