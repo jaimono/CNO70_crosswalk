@@ -31,5 +31,6 @@ data <- data %>%
 
 
 saveRDS(data, "02_data/CNO70_ISCO88AC_crosswalk.rds")
+write.csv(data, "02_data/CNO70_ISCO88AC_crosswalk.csv", row.names=FALSE)
 
 rm(list = ls())

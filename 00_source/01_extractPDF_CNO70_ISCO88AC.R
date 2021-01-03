@@ -6,6 +6,7 @@
 # =============================================================== #
 
 library(stringr)
+library(dplyr)
 library(tidyr)
 library(pdfsearch)
 
@@ -454,6 +455,7 @@ correspondencia <- correspondencia %>% filter_all(any_vars(!is.na(.)))
 
 
 saveRDS(correspondencia, "02_data/extractPDF.rds")
+write.csv(correspondencia, "02_data/extractPDF.csv", row.names=FALSE)
 
 rm(list = ls())
 
